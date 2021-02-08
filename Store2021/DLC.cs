@@ -4,12 +4,9 @@ using System.Text;
 
 namespace Store2021
 {
-    class DLC
+    class DLC : Item
     {
-        float price;
-        string name;
         Game parentGame;
-        string description;
 
         public DLC(string name, string description, float price)
         {

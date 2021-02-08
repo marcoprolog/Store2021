@@ -4,16 +4,10 @@ using System.Text;
 
 namespace Store2021
 {
-    class Game
+    class Game : Item
     {
         //what makes a game a game? What information do we need to reprent a game in our store?
-        string name;
-        int id;
         string url;
-        //image
-        bool hasBeenBought;
-        float price;
-        string description;
         //release-date
         //supported platforms
         string genre;
