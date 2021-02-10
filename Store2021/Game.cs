@@ -7,7 +7,7 @@ namespace Store2021
     class Game
     {
         //what makes a game a game? What information do we need to reprent a game in our store?
-        string name;
+        public string name;
         int id;
         string url;
         //image
